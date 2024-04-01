@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="notebook"
+        android:textSize="30dp"
+        android:id="@+id/notebook"/>
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="map"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/exchange"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="exchange"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_green_light"
+        android:text="camera"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/baidu"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="baidu"
+        android:textSize="30dp" />
+
+</LinearLayout>

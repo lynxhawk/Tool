@@ -1,0 +1,16 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">App</string>
+    <string name="add_new_website">Add New Website</string>
+    <string name="add_new_website_short">Add Website</string>
+
+    <string name="short_note">note</string>
+    <string name="long_note">notebook</string>
+    <string name="short_map">map</string>
+    <string name="long_map">map</string>
+    <string name="short_camera">camera</string>
+    <string name="long_camera">camera</string>
+    <string name="short_baidu">baidu</string>
+    <string name="long_baidu">baidu</string>
+    <string name="disable_msg">disable</string>
+</resources>

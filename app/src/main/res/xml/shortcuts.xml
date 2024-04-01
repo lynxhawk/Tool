@@ -1,0 +1,62 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="notebook"
+        android:enabled="true"
+        android:icon="@drawable/notebook"
+        android:shortcutShortLabel="@string/short_note"
+        android:shortcutLongLabel="@string/long_note"
+        android:shortcutDisabledMessage="@string/disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.lynxhawk.staticshortcuts"
+            android:targetClass="com.lynxhawk.staticshortcuts.NoteActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="map"
+        android:enabled="true"
+        android:icon="@drawable/map"
+        android:shortcutShortLabel="@string/short_map"
+        android:shortcutLongLabel="@string/long_map"
+        android:shortcutDisabledMessage="@string/disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.lynxhawk.staticshortcuts"
+            android:targetClass="com.lynxhawk.staticshortcuts.MapActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="camera"
+        android:enabled="true"
+        android:icon="@drawable/camera"
+        android:shortcutShortLabel="@string/short_camera"
+        android:shortcutLongLabel="@string/long_camera"
+        android:shortcutDisabledMessage="@string/disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.lynxhawk.staticshortcuts"
+            android:targetClass="com.lynxhawk.staticshortcuts.CameraActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="baidu"
+        android:enabled="true"
+        android:icon="@drawable/baidu"
+        android:shortcutShortLabel="@string/short_baidu"
+        android:shortcutLongLabel="@string/long_baidu"
+        android:shortcutDisabledMessage="@string/disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.lynxhawk.staticshortcuts"
+            android:targetClass="com.lynxhawk.staticshortcuts.WebActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+</shortcuts>
